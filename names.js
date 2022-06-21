@@ -17,10 +17,6 @@ let names = [
     "Эмүжин"
 ];
 
-let players = [{name: "Todoo", score : 1000}, {name: "Tergel", score: 5000}]
-
-
-
 function switchName(arr, name) {
     const first = arr[0];
 
