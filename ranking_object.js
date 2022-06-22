@@ -49,18 +49,18 @@ function getPlayer (arr, name, id) {
 console.log('Commands:\n    "q" - Quit\n    "s" - Search Player\n    "l" - View Ranking\n')
 var inp = readline.question('Enter command: ')
 
-while (inp != 'q') {
-    if (inp == 's') {
-        var userName = readline.question('Enter username: ')
-        var userId = readline.question('Enter id: ')
-        console.log(getPlayer(ranking, userName, userId))
-    } else if (inp == 'l') {
-        console.log(ranking)
-    } else {
-        console.log('Invalid command!')
-    }
-    var inp = readline.question('Enter command: ')
-}
+// while (inp != 'q') {
+//     if (inp == 's') {
+//         var userName = readline.question('Enter username: ')
+//         var userId = readline.question('Enter id: ')
+//         console.log(getPlayer(ranking, userName, userId))
+//     } else if (inp == 'l') {
+//         console.log(ranking)
+//     } else {
+//         console.log('Invalid command!')
+//     }
+//     var inp = readline.question('Enter command: ')
+// }
 
 switch(inp) {
     case 'q':
