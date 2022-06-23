@@ -62,7 +62,7 @@ var inp = readline.question('Enter command: ')
 //     var inp = readline.question('Enter command: ')
 // }
 
-switch(inp) {
+switch(inp.toLowerCase()) {
     case 'q':
         break
     case 's':
