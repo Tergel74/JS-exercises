@@ -11,9 +11,9 @@ function signUp(players) {
                 console.log('This username is already taken. Try a different one.')
                // signUp(players)
             } else {
-                var id_random = Math.round(Math.random(0, 1000))
+                var id_random = Math.round(Math.random(1000, 1000000)*1000)
                 while (id_random == players[x].id) {
-                    var id_random = Math.round(Math.random(0, 1000))
+                    var id_random = Math.round(Math.random(1000, 1000000)*1000)
                 }
                 players.push({
                     userName: name,
@@ -28,14 +28,14 @@ function signUp(players) {
         players.push({
             userName: name,
             password: pass,
-            id: Math.round(Math.random(0, 1000))
+            id: Math.round(Math.random(1000, 1000000)*10000)
         })
         console.log('Successfully signed up! Now you can log in.')
     }
 }
 
 function forgotPassword() {
-    var random_code = Math.round(Math.random(1000, 9999))
+    var random_code = Math.round(Math.random(1000, 9999)*10000)
     console.log('    The code for verifying is: ' + random_code + '.')
     var code = readline.question('Enter the code we sent you to verify: ')
     verification(random_code, code)
