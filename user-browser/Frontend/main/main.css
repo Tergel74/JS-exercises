@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222831;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25vw;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    transform: translateY(40vh);
+}
+
+button {
+    background-color: #393E46;
+    color: #00ADB5;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.25em;
+    width: 20vw;
+    height: 10vh;
+}
