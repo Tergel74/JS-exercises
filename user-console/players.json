@@ -3,7 +3,7 @@
     "userName": "Tergel",
     "password": "123",
     "id": 2475,
-    "isBanned": true,
-    "pass_attempts": 3
+    "isBanned": false,
+    "pass_attempts": 0
   }
 ]
