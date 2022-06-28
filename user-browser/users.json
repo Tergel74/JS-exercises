@@ -1,0 +1,30 @@
+[
+  {
+    "userName": "Tergel",
+    "password": "123",
+    "id": 1769,
+    "isBanned": false,
+    "pass_attempts": 0
+  },
+  {
+    "userName": "Tegi",
+    "password": "123",
+    "id": 2483,
+    "isBanned": false,
+    "pass_attempts": 0
+  },
+  {
+    "userName": "Hello",
+    "password": "12335",
+    "id": 7200,
+    "isBanned": false,
+    "pass_attempts": 0
+  },
+  {
+    "userName": "Bagi",
+    "password": "123",
+    "id": 447,
+    "isBanned": false,
+    "pass_attempts": 0
+  }
+]

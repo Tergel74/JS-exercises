@@ -1,12 +1,14 @@
 var express = require('express'),
-    app = express()
-    port = process.env.PORT || 8000;
+app = express()
+var cors = require('cors')
+port = process.env.PORT || 8000;
 
-    bodyParser = require('body-parser');
+bodyParser = require('body-parser');
 
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
+app.use(cors())
 
 var routes = require('./api/routes');
 routes(app); // registering the route
